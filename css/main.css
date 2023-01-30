@@ -45,10 +45,13 @@ img {
   font-size: 1.25rem;
   background-color: #D6E6AC;
   color: #112A46;
+  padding: 15px;
 }
 
 .main-nav ul li a:hover{
-  text-decoration: underline;
+  /* text-decoration: underline; */
+  background-color: #A5CF3A;
+  color: #000000;
 }
 
 form input,
