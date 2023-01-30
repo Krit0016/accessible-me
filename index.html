@@ -65,10 +65,10 @@
               <label for="youremail">Email</label>
               <input type="text" id="youremail" placeholder="Email">
               <label for="yoursubject">Subject</label>
-              <input type="text" id="yoursubject" placeholder="Subject">
-              <label for="yourmessage">Your Message</label>
-              <textarea id="yourmessage" name="yourmessage" required></textarea>
-              <button type="submit">Send</button>
+              <input type="text" id="yoursubject" placeholder="Subject" aria-required="true" aria-label="Subject">
+              <label>Your Message</label>
+              <textarea id="yourmessage" name="yourmessage" aria-required="true" aria-label="Your Message"></textarea>
+              <button type="submit" aria-label="Send">Send</button>
             </form>
           </div>
       </div>
